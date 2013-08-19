@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	font-family: arial, verdana, sans-serif;
+	font-size: 11pt;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+.site{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #FFF175;
+}
+
+#content{
+	padding: 10px 10px 10px 10px;
+}
+
+body{
+	background: url("../img/HONEYCOMBS.jpg");
+}
+
+.padding_borders{
+	padding:0px 180px 0px 180px;
+	text-align: justify;
+}
+/* ===== LOGO =====*/
+div.logo{
+	background-image: url("../img/logo.jpg");
+	background-position: -80px -10px;
+	width: 100%;
+	height: 100%;
+}
+
+iframe.logo{
+	position: relative;
+	top: -5px;
+	width:100%;
+	height:176px;
+	margin-bottom: 30px
+}
+
+/* ===== NAVIGATION =====*/
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+	list-style:none
+}
+
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+div.nav {
+	color: white;
+	background: url("../img/Cmpn-logo.png") no-repeat 1%;
+	background-color: black;
+	padding-left: 200px;
+	
+	height:30px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav a:HOVER{
+	text-decoration: none;
+	color: #A89D4D;
+}
+/* ===== FOOTER =====*/
+
+div.footer{
+	width: 100%;
+	height: 100%;
+	background-color: #FFF175;
+}
+
+iframe.footer{ 
+    height: 150px;
+	width: 100%;
+	height:100px;
+} 
+	
+/* ===== GOODS =====*/
+
+.goods td{
+	border: 1px solid black;
+}
+
+.goods th{
+	border-left: 1px solid black;
+}
+
+.goods th:FIRST-CHILD{
+	border-left: 0px solid black;
+}
+
+.goods .odd{
+	background-color: #CECECE;
+}
+
+.goods .even{
+	background-color: #A89D4D;
+}
+
+.goods td p:FIRST-CHILD{
+	color:yellow;
+}
+
+.goods td p{
+	color:green;
+}
+
+.goods .type td{
+	background-color: transparent;
+	text-align: center;
+	height: 50px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+.goods .type td p{
+	color: black;
+}
+
+/* ===== RECIPES =====*/
+.rec_name{
+	color: blue;
+	margin-top: 50px;
+}
+
+.red{
+	color:red;
+	margin-top: 50px;
+}
+
+.green{
+	color:green;
+	margin-top: 50px;
+}
+
+/* ======== CART =======*/
+
+.button_delete{
+	cursor:pointer; 
+	color:red;
+	text-align:center;
+}
+
+#cart table{
+	width: 100%
+}
+
+#cart table td{
+	text-align: center
+}
+
+
+#cart table:FIRST-CHILD td,th{
+	border: 1px solid black
+}
